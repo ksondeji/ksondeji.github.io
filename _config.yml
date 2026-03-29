@@ -1,0 +1,42 @@
+# Bienvenue dans le panneau de contrôle de votre site !
+
+# -- Informations sur le site --
+title: 'Karl Sondeji | Data Engineer'
+description: "Data Engineer Passionné par l'automatisation et le traitement des données, ce site est mon premier portfolio et blog."
+url: 'https://votre-username.github.io' # Remplacez par votre URL
+
+# -- Auteur --
+author:
+  name: 'Karl Sondeji'
+  email: 'karl.sondeji@gmail.com'
+  linkedin: 'Karl Sondeji' # pseudo
+  github: 'karl732' # pseudo
+
+# -- Configuration de Jekyll --
+theme: minima # Le thème par défaut
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag # référencement Google
+
+# -- Navigation principale (le menu) --
+navigation:
+  - title: 'Accueil'
+    url: '/'
+  - title: 'À Propos'
+    url: '/about/'
+  - title: 'Projets'
+    url: '/projets/'
+  - title: 'Blog'
+    url: '/blog/'
+  - title: 'Contact'
+    url: '/contact/'
+
+# -- SEO & Réseaux --
+twitter:
+  username: votre-pseudo-twitter
+github:
+  username: karl732
+
+# -- Google Analytics (suivre les visiteurs) --
+# google_analytics: G-XXXXXXXXXX
