@@ -8,24 +8,91 @@ layout: default
     <div class="wrapper">
       <h1>Salut, je suis {{ site.author.name }} 👋🏾</h1>
       <p>{{ site.description }}</p>
-      <a href="/projets/" class="btn btn-primary">🚀 Voir mes projets</a>
-      <a href="/contact/" class="btn btn-secondary">💬 Me contacter</a>
+      <a href="{{ '/projets/' | relative_url }}" class="btn btn-primary">🚀 Voir mes projets</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">💬 Me contacter</a>
     </div>
   </section>
 
-  <!-- Section Expertise -->
-  <section class="content-section">
+  <!-- Section Expertise (synthèse de about.md) -->
+  <section class="content-section home-expertise">
     <div class="wrapper">
       <h2 class="section-title">🎯 Mon Expertise</h2>
-      <!-- Mettez ici une grille de compétences -->
+      <p class="section-lead">
+        Pipelines de données, cloud et restitution décisionnelle — de la modélisation à la mise en production, en lien avec les métiers.
+      </p>
+      <div class="expertise-grid">
+        <article class="expertise-card">
+          <h3 class="expertise-card-title">Langages</h3>
+          <p class="expertise-card-body">Python, SQL, R, VBA</p>
+        </article>
+        <article class="expertise-card">
+          <h3 class="expertise-card-title">Pipelines &amp; orchestration</h3>
+          <p class="expertise-card-body">Airflow, dbt, scripts automatisés, ETL/ELT sur Microsoft Fabric</p>
+        </article>
+        <article class="expertise-card">
+          <h3 class="expertise-card-title">Cloud &amp; stockage</h3>
+          <p class="expertise-card-body">Azure, AWS, conception de flux fiables et observables</p>
+        </article>
+        <article class="expertise-card">
+          <h3 class="expertise-card-title">Visualisation</h3>
+          <p class="expertise-card-body">Power BI, Tableau, Quarto, dashboards</p>
+        </article>
+        <article class="expertise-card">
+          <h3 class="expertise-card-title">Qualité &amp; production</h3>
+          <p class="expertise-card-body">Tests, documentation, RGPD, CI/CD pour la data</p>
+        </article>
+      </div>
+      <p class="section-cta">
+        <a href="{{ '/about/' | relative_url }}" class="link-arrow">Découvrir mon parcours et mes expériences</a>
+      </p>
     </div>
   </section>
 
-  <!-- Section Projets à la Une -->
-  <section class="content-section" style="background: white;">
+  <!-- Section Projets récents (extraits de projets.md) -->
+  <section class="content-section home-projects">
     <div class="wrapper">
-      <h2 class="section-title">📊 Projets Récents</h2>
-      <!-- Mettez ici une grille de 3 projets -->
+      <h2 class="section-title">📊 Projets récents</h2>
+      <p class="section-lead">
+        Quelques travaux où la donnée et l’automatisation ont un impact concret — sécurité, industrialisation et machine learning.
+      </p>
+      <div class="project-grid">
+        <article class="project-card">
+          <a href="https://github.com/karl732/Securisation-API-vulnerable" class="project-card-media" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/api-banque.png' | relative_url }}" width="640" height="360" loading="lazy" alt="Aperçu — sécurisation d’API bancaire">
+          </a>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Sécurisation d’une API vulnérable</h3>
+            <p class="project-card-impact">Réduction de la surface d’attaque et bonnes pratiques sur une API exposée (durcissement, contrôles, sensibilisation aux risques).</p>
+            <p class="project-card-tech">PHP, SQL, Docker Compose, HTTPS</p>
+            <a href="https://github.com/karl732/Securisation-API-vulnerable" class="project-card-link" target="_blank" rel="noopener noreferrer">Code source</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <a href="https://github.com/karl732/fabric-wind-power-analytics" class="project-card-media" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/semantic-etl-fabric.png' | relative_url }}" width="640" height="360" loading="lazy" alt="Aperçu — pipeline ETL Microsoft Fabric et Power BI">
+          </a>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Pipeline ETL &amp; Power BI (Microsoft Fabric)</h3>
+            <p class="project-card-impact">Rapports Power BI alimentés et mis à jour quotidiennement ; alertes en cas de problèmes d’actualisation.</p>
+            <p class="project-card-tech">Microsoft Fabric, architecture médallion, modèle sémantique, Power BI</p>
+            <a href="https://github.com/karl732/fabric-wind-power-analytics" class="project-card-link" target="_blank" rel="noopener noreferrer">Code source</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <a href="https://github.com/karl732/ML-sub-predictions-on-Bank-Marketing-Data" class="project-card-media" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/bankmarketing.gif' | relative_url }}" width="640" height="360" loading="lazy" alt="Aperçu — prédiction souscription marketing bancaire">
+          </a>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Prédiction de souscription (machine learning)</h3>
+            <p class="project-card-impact">Meilleure ciblage des clients susceptibles de souscrire à un dépôt à terme — précision d’environ 89&nbsp;%.</p>
+            <p class="project-card-tech">R, Quarto, Tidymodels, randomForest, xgboost</p>
+            <a href="https://github.com/karl732/ML-sub-predictions-on-Bank-Marketing-Data" class="project-card-link" target="_blank" rel="noopener noreferrer">Code source</a>
+          </div>
+        </article>
+      </div>
+      <p class="section-cta">
+        <a href="{{ '/projets/' | relative_url }}" class="link-arrow">Voir tous les projets</a>
+      </p>
     </div>
   </section>
 </div>
