@@ -13,7 +13,7 @@ Vous êtes recruteur ou vous avez simplement un besoin data ? Voici les moyens 
 
 ## CV
 
-[Télécharger mon CV (PDF)]({{ '/assets/KARL_SONDEJI_CV.pdf'}})  
+[Télécharger mon CV (PDF)]({{ '/assets/KARL_SONDEJI_CV.pdf' | relative_url }})
 
 
 ## Planifier un appel

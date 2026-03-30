@@ -17,7 +17,9 @@ Une sélection de travaux où la donnée et l’automatisation apportent une val
 **Liens :**  
 [Démo / documentation](https://github.com/karl732/Securisation-API-vulnerable) · [Code source](https://github.com/karl732/Securisation-API-vulnerable)
 
-**Prévisualisation :** `![Aperçu]({{ '/assets/image/api-banque.png' | assets\images\api-banque.png }})`
+**Prévisualisation :**
+
+![Aperçu — API banque]({{ '/assets/images/api-banque.png' | relative_url }})
 
 ---
 
@@ -30,7 +32,9 @@ Une sélection de travaux où la donnée et l’automatisation apportent une val
 **Liens :**  
 [Démo / rapport](https://github.com/karl732/fabric-wind-power-analytics) · [Code source](https://github.com/karl732/fabric-wind-power-analytics)
 
-**Prévisualisation :** `![Aperçu]({{ '/assets/image/semantic-etl-fabric.png.png' | assets\images\semantic-etl-fabric.png }})`
+**Prévisualisation :**
+
+![Aperçu — pipeline Fabric & Power BI]({{ '/assets/images/semantic-etl-fabric.png' | relative_url }})
 
 ---
 
@@ -42,7 +46,9 @@ Une sélection de travaux où la donnée et l’automatisation apportent une val
 
 [Démo / documentation](https://github.com/karl732/ML-sub-predictions-on-Bank-Marketing-Data) · [Code source](https://github.com/karl732/ML-sub-predictions-on-Bank-Marketing-Data)
 
-**Prévisualisation :** `![Aperçu]({{ '/assets/image/bankmarketing.gif' | assets\images\bankmarketing.gif }})`
+**Prévisualisation :**
+
+![Aperçu — prédiction marketing bancaire]({{ '/assets/images/bankmarketing.gif' | relative_url }})
 
 ---
 
@@ -54,7 +60,9 @@ Une sélection de travaux où la donnée et l’automatisation apportent une val
 
 [Démo / documentation](https://github.com/karl732/Electricity-consumers-average-price-bias) · [Code source](https://github.com/karl732/Electricity-consumers-average-price-bias)
 
-**Prévisualisation :** `![Aperçu]({{ '/assets/images/perception-biais.png' | assets\images\perception-biais.png }})`
+**Prévisualisation :**
+
+![Aperçu — biais de perception tarifs]({{ '/assets/images/perception-biais.png' | relative_url }})
 
 ---
 
@@ -66,6 +74,8 @@ Une sélection de travaux où la donnée et l’automatisation apportent une val
 
 [Démo / documentation](https://github.com/karl732/Enedis-Data-Challenge) · [Code source](https://github.com/karl732/Enedis-Data-Challenge)
 
-**Prévisualisation :** `![Aperçu]({{ '/assets\images\Enedis-data-challenge.png' | assets\images\Enedis-data-challenge.png }})`
+**Prévisualisation :**
+
+![Aperçu — Enedis Data Challenge]({{ '/assets/images/Enedis-data-challenge.png' | relative_url }})
 
 ---
