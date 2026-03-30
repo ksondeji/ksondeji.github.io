@@ -7,6 +7,15 @@ layout: default
   <section class="hero-section">
     <div class="wrapper">
       <h1>Salut, je suis {{ site.author.name }} 👋🏾</h1>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGGHMVTSJL"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-SGGHMVTSJL');
+      </script>
       <p>{{ site.description }}</p>
       <a href="{{ '/projets/' | relative_url }}" class="btn btn-primary">🗃️ Voir mes projets</a>
       <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">💬 Me contacter</a>
