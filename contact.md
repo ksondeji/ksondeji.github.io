@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-Vous êtes recruteur, une équipe produit ou un client ? Voici les moyens les plus simples pour me joindre ou planifier un échange.
+Vous êtes recruteur ou vous avez simplement un besoin data ? Voici les moyens les plus simples pour me joindre ou planifier un échange.
 
 ## Coordonnées
 
