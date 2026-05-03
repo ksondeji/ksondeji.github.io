@@ -1,5 +1,6 @@
 # Site personnel — portfolio & blog
 
+! Ce site web est pour l'instant mis en pause 
 ## Présentation
 
 Ce dépôt héberge mon site web personnel. Le site sert de vitrine : présentation du parcours, mise en avant de projets data, articles de blog (retours d’expérience, notes techniques) et de point de contact pour les opportunités professionnelles.
